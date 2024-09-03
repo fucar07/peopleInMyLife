@@ -4487,6 +4487,7 @@ self.C3_JsPropNameTable = [
 	{Mouse: 0},
 	{sonuc: 0},
 	{Touch: 0},
+	{Arkaplan: 0},
 	{cevaplar: 0},
 	{sure: 0},
 	{opak: 0},
@@ -4503,6 +4504,7 @@ self.InstanceType = {
 	Mouse: class extends self.IInstance {},
 	sonuc: class extends self.ITextInstance {},
 	Touch: class extends self.IInstance {},
+	Arkaplan: class extends self.ISpriteInstance {},
 	cevaplar: class extends self.ISpriteInstance {}
 }
 }
