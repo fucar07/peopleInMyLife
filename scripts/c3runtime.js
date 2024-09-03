@@ -4467,13 +4467,13 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Mouse.Cnds.IsOverObject,
 		C3.Plugins.System.Cnds.LayerVisible,
 		C3.Plugins.Mouse.Acts.SetCursor,
-		C3.Plugins.Mouse.Cnds.OnObjectClicked,
 		C3.Plugins.System.Cnds.Compare,
+		C3.Plugins.video.Acts.Play,
+		C3.Plugins.System.Cnds.OnLoadFinished,
+		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.Plugins.Sprite.Exps.AnimationFrame,
 		C3.Plugins.Text.Acts.SetFontColor,
-		C3.Plugins.System.Acts.SetBoolVar,
-		C3.Plugins.video.Acts.Play,
-		C3.Plugins.System.Cnds.OnLoadFinished
+		C3.Plugins.System.Acts.SetBoolVar
 	];
 };
 self.C3_JsPropNameTable = [
